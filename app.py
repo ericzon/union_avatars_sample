@@ -21,6 +21,7 @@ print('body_id',body_id)
 head = ua_client.generate_head(token, face_path)
 print('head keys ->', head.keys())
 head_id = head['id']
+# head_id = 'fa73cc9e-5896-4016-83aa-5ec5bf4176ad'
 print('head_id', head_id)
 
 # AVATAR
